@@ -63,7 +63,7 @@ def detect(gray, frame):
     except:
         pass
  
-##webcam
+# For Webcam use VideoCapture(0)
 video_capture = cv2.VideoCapture("newdata6.mp4")
 ret = True
 
@@ -79,7 +79,7 @@ while ret:
    
       canvas = detect(gray, frame)
          
-      if cv2.waitKey(1) and 0xFF == ord('q'):
+      if cv2.waitKey(1) == ord('q'):
         break
   except AttributeError:
       break      
