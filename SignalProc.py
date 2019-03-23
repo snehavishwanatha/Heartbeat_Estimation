@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Mar  5 02:18:07 2019
-
-@author: Admin
-"""
-
 #import scipy
 #import numpy as np
 #from scipy.fftpack import fft
@@ -23,27 +16,19 @@ Created on Tue Mar  5 02:18:07 2019
 #plt.grid()
 #plt.show()
 
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Dec 28 21:56:17 2018
-
-@author: Dell
-"""
-#import PESHack
 import ROI_RGB
 import cv2
 from scipy import signal
 from scipy.fftpack import fft
 import numpy as np
 from scipy.fftpack import fftfreq
-""" i got the hue values from the previous program but i dont know how to automatically plot so copied those values here"""
 '''
 hue =[]
 with open("1.txt") as f:
     for line in f:
         for word in line.split(','):
             hue.append(word)
- '''           
+'''           
 #print(hue)
 #print(len(hue))
 from matplotlib import pyplot as plt
@@ -256,9 +241,7 @@ ax.plot(xf*10, yg3)
 plt.show()
 
 #from firebase import firebase
-#
 #firebase=firebase.FirebaseApplication('https://halo2-1ce47.firebaseio.com/')
-#
 #result = firebase.put('/Patients/Lohith','heartRate',math.ceil(maxheart3))
 
 #print("Heart rate is:" + str(result))
