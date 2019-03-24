@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Mar  24 06:35:58 2019
-
-@author: Admin
-"""
-
 import urllib
 import json
 import datetime
