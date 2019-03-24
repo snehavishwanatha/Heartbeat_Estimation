@@ -5,8 +5,6 @@ from scipy import signal
 from scipy.fftpack import fft
 import numpy as np
 from scipy.fftpack import fftfreq
-""" i got the hue values from the previous program but i dont know how to automatically plot so copied those values here"""
-'''
 hue =[]
 with open("1.txt") as f:
     for line in f:
